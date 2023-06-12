@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+
+
+.container{
+  width: 100%;
+  margin: 1rem auto;
+
+  justify-content: center;
+  height: 20px ;
+
+
+  
+}
+
+.grid{
+  display: grid;
+  margin: 0%;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 2rem;
+  justify-content: center;
+ 
+  background-color: black;
+  
+}
+
+h2{
+  background-color: rgb(201, 124, 22);
+}
+
+
+.cardimg{
+  cursor: pointer;
+   border-radius: 20px;
+    width: 200px;
+    height: 300px; 
+    vertical-align: text-top;
+    border-bottom: 5px solid line;
+    border-color: yellow;
+    padding: 10px;
+  
+}
+.bgcl{
+  background-color: black;
+}
+.searchbar{
+  
+  color: gray;
+ 
+  border: 1cap solid transparent;
+  border-radius: 20px;
+ margin-left: 200px;
+ margin-right: 200px;
+ margin-bottom: 10px;
+
+ 
+
+}
+.srhbtn{
+  align-content: center;
+  background-color: aqua;
+  text-decoration: solid;
+  position: relative;
+  align-items: end;
+  margin-top: 20px;
+}
+.block{
+  color: gray;
+  box-shadow: 2px 3px 28px 1px rgb(238, 223, 223);
+  border: 1cap solid transparent;
+  border-radius: 20px;
+
+}
+
+
+
+
+

@@ -1,0 +1,62 @@
+.logobar{
+    color: rgb(244, 240, 240);
+    font-family: 'Chokokutai';
+    font-size:65px;
+    margin:auto;
+    padding: 1rem;
+    background: #000;   
+}
+.logobar:hover{
+    color: rgb(20, 177, 205);
+}
+.navbar{
+   
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+
+   
+}
+.bgimg{
+   
+ background-color: #f0e7e7;
+   
+    background-size: cover;
+
+}
+.navitem{
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1;
+    cursor: pointer;
+    border-bottom: 3px red;
+    
+}
+.navlist{
+    list-style-type: none;
+    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+.navlogin{
+   margin-left: px;
+  
+}
+.about{
+    font-size: medium;
+    text-align: left;
+    color: #f0e7e7;
+}
+.contact{
+    font-size: medium;
+    color: #f0e7e7;
+    text-align: left;
+    row-gap: 10px;
+}
